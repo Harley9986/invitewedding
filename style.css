@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Didact+Gothic&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #494949;
+}
+
+h2 {
+    border-bottom: 1px solid #727272;
+    font-size: 32px;
+}
+
+p {
+    color: #617260;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+body {
+    background-image: url(background2.png);
+    background-size: 100% 100%;
+    font-family: 'Didact Gothic', sans-serif;
+    
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    max-width: 700px;
+}
+
+.header {
+    border-bottom: 2px solid #a8ff96;
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+}
+
+.header img {
+    margin-bottom: 20px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow:  15px 15px 25px #a4a4a4;
+}
+
+.block {
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+
+    border: 1px solid #bebebe;
+    border-radius: 4px;
+    background: rgba(196, 196, 196, 0.726);
+}
+
+.pg1 {
+    margin: 30px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.pg1 h3 {
+    font-size: 26px;
+    margin-left: 40px;
+    margin-right: 120px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(143, 143, 143, 0.685);
+}
+
+.pg1 p {
+    font-size: 20px;
+}
+
+.block_2 img {
+    width: 100%;
+    max-width: 800px;
+}
+
+.block_3 iframe {
+    /* width: 100%; */
+    max-width: 500px;
+    margin: 20px;
+}
+
+.block_3 p {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.color {
+    display: inline-block;
+    margin: auto;
+    /* height: 100px; */
+    width: 400px;
+    /* border: 1px solid red; */
+}
+
+.col {
+    margin-top: 10px;
+    margin: 5px;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow:  20px 20px 36px #a4a4a4;
+             /* -20px -20px 36px #ffffff; */
+    
+}
+
+.color1 {
+    background: #789550;
+}
+
+.color2 {
+    background: #c4d3ae;
+}
+
+.color3 {
+    background: #fffdfe;
+}
+
+.color4 {
+    background: #e7e7e7;
+}
+
+.color5 {
+    background: #fbf0df;
+}
+
+.color6 {
+    background: #bd9e6f;
+}
+
+.block_6 {
+    position: relative;
+}
+
+.block_6 iframe {
+    padding: 0;
+    margin: 0;
+    max-width: 400px;
+    height: 750px;
+    overflow-y: hidden;
+    }
+
+.block_7 {
+    border: none;
+}
+
+@media (max-width: 550px) {
+    .color {
+        max-width: 200px;
+    }
+
+    .block_3 iframe {
+        width: 300px;
+    }
+}
+
+
